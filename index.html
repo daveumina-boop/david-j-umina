@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David J Umina</title>
 
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-top: 50px;
+    }
+
+    p {
+      color: #aaa;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 25px;
+      margin: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background: #e50914;
+      color: #fff;
+    }
+
+    .btn-secondary {
+      border: 1px solid #555;
+      color: #fff;
+    }
+
+    .section {
+      margin-top: 60px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: none;
+      font-size: 16px;
+    }
+
+    .form {
+      margin-top: 30px;
+    }
+
+    .tagline {
+      font-size: 20px;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HERO -->
+  <h1>David J Umina</h1>
+  <div class="tagline">Founder. Operator. Builder.</div>
+
+  <p>
+    30 years in business. Nearly 1 million deliveries.  
+    Now building the next evolution of restaurant discovery.
+  </p>
+
+  <a href="https://daveumina-boop.github.io/demo.html" class="btn btn-primary">View Demo</a>
+  <a href="#signup" class="btn btn-secondary">Join Updates</a>
+
+  <!-- DMF -->
+  <div class="section">
+    <h2>DeliverMeFood 2.0</h2>
+
+    <p>
+      Restaurants shouldn't rent customers forever.
+    </p>
+
+    <p>
+      DeliverMeFood turns food videos into direct orders —  
+      without commissions, without middlemen, and without losing the customer relationship.
+    </p>
+
+    <a href="https://daveumina-boop.github.io/restaurant.html" class="btn btn-primary">For Restaurants</a>
+  </div>
+
+  <!-- STORY -->
+  <div class="section">
+    <h2>Why Me</h2>
+
+    <p>
+      I started my business in May of 1996 — six months before graduating from John Carroll University with a degree in marketing.
+    </p>
+
+    <p>
+      That same year, I got married and started what would become a 30-year run in the restaurant and delivery space.
+    </p>
+
+    <p>
+      Nearly 1 million deliveries later, I’ve seen this industry from every angle —  
+      and I know exactly where it's broken.
+    </p>
+
+    <p>
+      DeliverMeFood 2.0 is not an idea.  
+      It’s the result of decades of real-world experience, iteration, and evolution.
+    </p>
+  </div>
+
+  <!-- PATHS -->
+  <div class="section">
+    <h2>Get Involved</h2>
+
+    <a href="restaurant.html" class="btn btn-primary">Restaurant Inquiry</a>
+    <a href="#signup" class="btn btn-secondary">Investor Interest</a>
+    <a href="#signup" class="btn btn-secondary">Join as Customer</a>
+  </div>
+
+  <!-- SIGNUP -->
+  <div class="section" id="signup">
+    <h2>Stay Connected</h2>
+
+    <p>
+      Restaurants. Investors. Early users.  
+      Get updates as we roll this out.
+    </p>
+
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="form">
+
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+
+      <select name="interest">
+        <option value="">I’m interested as...</option>
+        <option>Restaurant</option>
+        <option>Investor</option>
+        <option>Customer</option>
+      </select>
+
+      <button class="btn btn-primary" type="submit">Get Updates</button>
+
+    </form>
+  </div>
+
+</div>
+
+</body>
+</html>
